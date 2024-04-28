@@ -663,6 +663,7 @@ header .nav h2 a:hover {
 @media screen and (min-width: 992px) {
     .d-lg {
         display: flex;
+
     }
 
     .dropdown-menu {
@@ -685,7 +686,7 @@ header .nav h2 a:hover {
 
     .dark_light_btn_desktop {
         display: block;
-        margin-right: 4.3rem;
+        margin-right: 6.3rem;
         margin-top: -0.3rem;
     }
 
@@ -701,10 +702,10 @@ header .nav h2 a:hover {
     }
 
     .dropdown-menu {
-        display: flex;
+        display:contents;
         width: 50px;
         height: 80%;
-        justify-content: center;
+        justify-content:center;
         align-items: center;
         border-radius: 50%;
         position: relative;
@@ -725,7 +726,7 @@ header .nav h2 a:hover {
     }
 
     .dropdown-menu:hover .dropdown-content {
-        display: block;
+        display:block;
     }
 
     .dropdown-menu:hover {
